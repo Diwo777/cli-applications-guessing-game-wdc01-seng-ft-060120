@@ -12,7 +12,7 @@ def run_guessing_game
     puts "Goodbye!"
     elsif input != random
  puts  "Sorry! The computer guessed #{random}.chomp"
- else input == random
+ else input.to_i == random
    puts "You guessed the correct number!"
  end
    
