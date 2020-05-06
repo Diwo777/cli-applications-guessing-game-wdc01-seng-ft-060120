@@ -13,6 +13,6 @@ def run_guessing_game
     elsif input != random
    puts  "Sorry! The computer guessed #{random}.chomp" 
    else input == random.chomp
-  puts ""
+  puts "Sorry! The computer guessed #{random}.chomp"
 end
  end 
