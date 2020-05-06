@@ -12,8 +12,8 @@ def run_guessing_game
     puts "Goodbye!"
     elsif input != random
  puts  "Sorry! The computer guessed #{random}.chomp"
- else 
- puts   "You guessed the correct number!"
+ else input == random
+   puts "You guessed the correct number!"
  end
    
  end 
