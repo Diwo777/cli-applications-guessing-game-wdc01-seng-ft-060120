@@ -8,7 +8,7 @@ def run_guessing_game
  
   input = gets.chomp
   
-  if input.to_i == "exit"
+  if input == "exit"
     puts "Goodbye!"
     elsif input.to_i != random
  puts  "Sorry! The computer guessed #{random}.chomp"
