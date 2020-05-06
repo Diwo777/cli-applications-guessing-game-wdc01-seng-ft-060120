@@ -5,7 +5,7 @@ require 'pry'
 def run_guessing_game
   
   random = rand(6) + 1 
-  binding.pry
+ 
   input = gets.chomp
   
   if input == "exit"
@@ -15,5 +15,5 @@ def run_guessing_game
  else input == random
    puts "You guessed the correct number!"
  end
-   
+    binding.pry
  end 
