@@ -5,9 +5,9 @@ require 'pry'
 def run_guessing_game
   
   random = rand(6) + 1 
-  
-  input = gets.chomp
   binding.pry
+  input = gets.chomp
+  
   if input == "exit"
     puts "Goodbye!"
     elsif input != random
