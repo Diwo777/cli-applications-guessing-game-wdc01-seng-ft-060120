@@ -12,7 +12,7 @@ def run_guessing_game
     puts "Goodbye!"
     elsif input != random
    puts  "Sorry! The computer guessed #{random}.chomp" 
-   elsif input == random.chomp
-  
+   else input == random.chomp
+  puts ""
 end
  end 
